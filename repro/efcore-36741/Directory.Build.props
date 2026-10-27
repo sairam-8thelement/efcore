@@ -1,0 +1,8 @@
+<Project>
+  <PropertyGroup>
+    <EFCoreVersion Condition=" '$(EFCoreVersion)' == '' ">10.0.9</EFCoreVersion>
+    <BaseIntermediateOutputPath>obj/$(EFCoreVersion)/</BaseIntermediateOutputPath>
+    <BaseOutputPath>bin/$(EFCoreVersion)/</BaseOutputPath>
+    <DefaultItemExcludes>$(DefaultItemExcludes);obj/**;bin/**</DefaultItemExcludes>
+  </PropertyGroup>
+</Project>
